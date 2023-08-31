@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --container-width-ld: 80%;
+    --container-width-md: 80%;
+    --container-width-sd: 80%;
+
+    --transition: all 400ms ease;
+}
+
+body{
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(52, 14, 104);
+    background-color: #ffffff;
+    
+}
+
+.container{
+    width:var(--container-width-ld);
+    margin: 0 auto;
+}
+
+
+.section{
+    padding: 6rem 0;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+
+
+
+
+h1,h2,h3,h4{
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 2.4rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+a{
+    color: aliceblue;
+}
+
+
+img{
+    width: 50%;
+    object-fit: cover;
+
+
+}
+
+.btn{
+    display: inline-block;
+    background-color: brown;
+    padding: 1rem 2rem;
+    border: 2px solid transparent;
+    font-weight: 500;
+}
+
+.btn-hover{
+    background: transparent;
+    color: burlywood;
+    border-color: grey ;
+
+}
+
+.btn-primary{
+    background-color: rgb(7, 22, 118);
+    color: rgb(255, 255, 255);
+}
+
+
+
+/*------------------------------NAVABAR---------------------*/
+
+
+
+
+
+nav{
+    background-color: rgb(30, 0, 81);
+    width: 100vw;
+    height: 60px;
+    position: sticky;
+    top: 0%;
+    z-index: 11;
+    padding-top: 45px;
+}
+
+
+.nav_container{
+    height: 100;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+nav button{
+    display: none;
+}
+
+
+.nav_menu{
+    font-size: 16;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+.nav_menu a:hover{
+    color: black;
+}
+.header_container {
+
+}
+
+
