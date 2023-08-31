@@ -69,7 +69,8 @@ a{
 
 
 img{
-    width: 50%;
+    width: 100%;
+    display: block;
     object-fit: cover;
 
 
@@ -93,6 +94,7 @@ img{
 .btn-primary{
     background-color: rgb(7, 22, 118);
     color: rgb(255, 255, 255);
+    margin-top: 50px;
 }
 
 
@@ -107,13 +109,15 @@ nav{
     background-color: rgb(30, 0, 81);
     width: 100vw;
     height: 60px;
-    position: sticky;
+    position: block;
     top: 0%;
     z-index: 11;
     padding-top: 45px;
 }
 
-
+.window-scroll{
+    background: #260450;
+}
 .nav_container{
     height: 100;
     display: flex;
@@ -131,14 +135,120 @@ nav button{
     display: flex;
     align-items: center;
     gap: 4rem;
+    transition: 400ms;
 
 }
 
 .nav_menu a:hover{
-    color: black;
+    color: rgb(185, 141, 236);
 }
 .header_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+}
+
+/*============Header==============*/
+header{
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: 70vh;
+    margin-bottom: 12rem;
+}
+
+.header_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+.header__left{
+    margin: 1rem 0 2.4rem;
+
+}
+.header__left h1{
+    margin: 1rem 0 2.4rem;
 
 }
 
+   /* ========header================*/
 
+.icons{
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.categories{
+    padding-top: 4rem;
+    background: #eed7ff;
+    padding-bottom: 4rem;
+}
+
+.categories h1{
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+.categories_container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+.categories__left{
+    margin-top: 120px;
+    margin-right: 20px;
+}
+.categories__left p{
+    margin: 1rem 0 3rem;
+    font-size:medium;
+}
+
+.categories__right{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.categories{
+    background: 
+}
+
+.categorie{
+    background: #fbf1fd;
+    border-radius: 10px 10px ;
+    padding: 30px;
+    transition: rgb(161, 109, 234);
+}
+
+.categorie:hover{
+    box-shadow: 1px 5px 10px rgb(32, 2, 61);
+}
+
+.categorie h4{
+    margin-bottom: 12px;
+    text-align: start;
+    font-size: medium;
+}
+
+.categorie p{
+    font-size: medium;
+    margin-bottom: 40px;
+}
+
+.btn_categorie{
+    border: #8b5992 ;
+    color: rgb(185, 7, 7);
+    padding: 3px 8px;
+    transition: rgb(255, 255, 255);
+    
+}
+.btn_categorie:hover{
+    background-color: rgb(255, 219, 219);
+    border-radius: 3px;
+    box-shadow:1px 3px #68386e;
+}
