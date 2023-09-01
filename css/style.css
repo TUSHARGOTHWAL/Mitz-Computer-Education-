@@ -268,21 +268,119 @@ header{
    .course_container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 10px;
+    gap: 20px;
    }
 
    .course_img{
   
     justify-content: space-between;
+    
    }
    .course{
-    background: #f8d0d0;
+    background: #e8caed;
     text-align: center;
     padding: 20px;
     border: 3px solid transparent;
-    border-radius: 8px;
+    border-radius: 7px;
    }
 
    .course_info{
     padding: 2rem;
    }
+
+
+.courses h1{
+    margin-bottom: 100px;
+
+
+}
+
+.course_info h4{
+    margin-bottom: 25px;
+}
+
+.course:hover{
+    border: #68386e solid 3px;
+    background: #dbf1cb;
+}
+
+
+.faqs {
+    background: #f7dafb;
+    margin-top: 90px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+.faq_icon{
+    width: 20px;
+    align-self: flex-start start;
+}
+
+.faqs_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.faq{
+    display: flex;
+    padding: 2rem;
+    align-items:center;
+    gap: 1.5rem;
+    height: fit-content;
+    background: #faf5ff;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.faq h4{
+    margin:auto auto;
+    font-size: 20px;
+    line-height: 2.2;
+}
+
+.faq p{
+    margin-top: 0.5rem;
+    font-size: 15px;
+    display: none;
+}
+
+.faq.open p{
+    display: block;
+}
+
+
+
+
+
+.testi-container{
+    overflow-x: hidden;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.testimonial{
+    padding-top:2rem ;
+}
+
+.avatar{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border: black solid 2px;
+}
+
+.testi_info{
+    text-align: center;
+}
+
+.testi_body{
+    background: #f6cffb;
+    padding: 2.5rem;
+    margin-top: 2rem;
+    border-radius: 40px;
+}
+
