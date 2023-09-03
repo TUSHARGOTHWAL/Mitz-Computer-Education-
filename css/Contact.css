@@ -1,0 +1,106 @@
+nav{
+    background:  rgb(13, 34, 92);
+}
+
+
+.contact_container{
+    background: rgb(223, 243, 247);
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+    height: 15rem;
+    margin: 7rem auto;
+    border-radius: 1.5rem;
+    margin-bottom: 200px;
+}
+
+.contact_aside{
+    background: rgb(46, 46, 144);
+    padding: 3rem;
+    border-radius: 1.5rem;
+    position: relative;
+    bottom: 10rem;
+    align-items: center;
+    color: azure;
+}
+
+.aside_image{
+    width: 15rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    
+
+}
+
+.contact_aside h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.contact_aside p{
+     font-size: 0.9rem;
+     margin-bottom: 2rem;
+     font-weight: 700;
+}
+
+
+.contact_aside i{
+  border: 2px solid;
+  padding: 5px;
+  border-radius: 70%;
+  border-color: rgb(31, 9, 70);
+  background: rgb(250, 212, 74);
+  color: rgb(16, 5, 36);
+}
+
+.contact_details li{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom:1rem ;
+}
+
+#name{
+    margin-top: 20px;
+    margin-bottom: 4px;
+    width: 400px;
+}
+#mail{
+
+    margin-bottom: 4px;
+    width: 400px;
+}
+#number{
+
+    margin-bottom: 4px;
+    width: 400px;
+}
+#courseid{
+  
+    margin-bottom: 4px;
+    width: 400px;
+}
+
+#contact_form{
+    text-align: center;
+}
+
+
+.submit_btn{
+    padding: 7px;
+    margin-top: 20px;
+    border: purple solid ;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.submit_btn:hover{
+    padding: 10px;
+    background: rgb(238, 209, 24);
+    margin-top: 20px;
+    border: rgb(59, 6, 88) solid ;
+    cursor: pointer;
+    box-shadow: rgb(123, 55, 5) .2rem .3rem .2rem 0;
+}
